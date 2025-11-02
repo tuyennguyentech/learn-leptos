@@ -1,9 +1,11 @@
+mod part_1_building_user_interfaces;
+
 use leptos::prelude::*;
 
 fn main() {
   console_error_panic_hook::set_once();
   // leptos::mount::mount_to_body(|| view! { <p>"Hello, world!"</p> });
-  mount_to_body(App_3_2);
+  mount_to_body(part_1_building_user_interfaces::components_and_props::App);
 }
 
 #[component]
